@@ -1,0 +1,22 @@
+# Ignorar archivos temporales: todos los archivos con cualquier nombre y extension .tmp o .log
+
+*.log
+*.tmp
+*.iml
+*.mf
+
+# Ignorar archivos de configuración local: todos los archivos en directorios .env, .vscode y .idea
+
+.vscode/
+.idea/
+.env
+nbproject/
+
+# Ignorar archivos que empiecen con '_'
+_*
+
+# NO ignorar archivos que empiecen con '_config'
+!_config
+
+# Ignorar archivos 'archivo.txt' en cualquier subdirectorio de 'carpeta/'
+carpeta/**/archivo.txt
