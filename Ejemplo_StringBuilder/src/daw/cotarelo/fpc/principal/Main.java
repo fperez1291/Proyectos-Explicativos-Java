@@ -27,8 +27,9 @@ public class Main {
          * Construimos un objeto (str) de la clase StringBuilder. Para ello,
          * contamos con 3 constructores:
          *
-         * 1) StringBuilder() 2) StringBuilder(int capacidad) 3)
-         * StringBuilder(String str)
+         *      1) StringBuilder()
+         *      2) StringBuilder(int capacidad) 
+         *      3) StringBuilder(String str)
          *
          * Tenga en cuenta que los constructores numerados no son la forma
          * concreta de usar el constructor, sino su cabecera (en términos más
