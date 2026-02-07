@@ -43,8 +43,8 @@ StringBuilder str1 = new StringBuilder();
  * Constructor con capacidad inicial: construye un StringBuilder sin caracteres 
  * y con una capacidad inicial especificada en el arguemnto capacidad. <br>
  * [SINTAXIS] StringBuilder nameObject = new StringBuilder(capacidad); <br> 
- * capacidad: puede ser o un literal de tipo int o el nombre de una variable de 
- * tipo int
+ * capacidad: puede ser o un literal de tipo int, el nombre de una variable de 
+ * tipo int o el valor devuelto por un método (debe devolver un int)
  */
 StringBuilder str2 = new StringBuilder(10);
 
@@ -65,5 +65,36 @@ String cadena = "Programacion en Java";
 StringBuilder str5 = new StringBuilder(cadena);
 ```
 
+Algunas recomendaciones de uso: 
+1. Usar el contructor vacío: 
+    - Cuando no se conoce el tamaño final de la cadena
+    - Con cadenas de texto pequeñas (menos de 50 caracteres)
+2. Usar el constructor que establoece la capacidad: 
+    - Cuando se conoce el tamaño aproximado de la cadena. 
+    - Con cadenas de texto grandes (más de 100 caracteres).
+    - Cuando maximizar el rendimiento sea crítico. 
+3. Usar el constructor que establece una cadena inicial:
+    - Cuando ya se tiene el contenido base.
+    - Cuando se va a modificar una cadena existente. 
+
 ## Métodos que debe conocer
+
+1. Método ```append()```: agrega la información que recibe por parámetro al 
+final de la cadena. Para saber tanto el n.º como el tipo de los argumentos que 
+puede recibir el método, consulte la página dedicada a la clase StringBuilder 
+en la API de Java, puesto que el método está sobrecargado (es decir, existen 
+varias versiones del método que o bien reciben el mismo n.º de parámetros, 
+pero de distinto tipo, o bien recibe un n.º distinto de parámetros).
+```java
+// Método append() -> puede recibir diferentes tipos de datos
+str1.append("Hola Mundo");      // String
+str1.append(123);               // int
+str1.append(45.67);             // double
+str1.append('!');               // char
+str1.append(true);              // boolean
+str1.append(new Object());      // Object (toString())
+// Resultado: "Hola Mundo12345.67!truejava.lang.Object@..."
+```
+> Puede comprobar como la secuencia de código anterior funciona igual que si escribiese 
+```str1.append("Hola Mundo").append(123).append(45.67).append('!').append(true).append(new Object());```. 
 
