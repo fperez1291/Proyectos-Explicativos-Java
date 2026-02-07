@@ -5,7 +5,7 @@ conceptos de la ***Programación Orienta a Objetos*** y de la programación en J
 
 Para ello, se presentan los siguientes proyectos: 
 
-- [StringBuilder](./Ejemplo_stringBuilder)
+- [StringBuilder](./Ejemplo_StringBuilder)
 - 
 - 
 - 
