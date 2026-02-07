@@ -85,6 +85,7 @@ puede recibir el método, consulte la página dedicada a la clase StringBuilder
 en la API de Java, puesto que el método está sobrecargado (es decir, existen 
 varias versiones del método que o bien reciben el mismo n.º de parámetros, 
 pero de distinto tipo, o bien recibe un n.º distinto de parámetros).
+
 ```java
 // Método append() -> puede recibir diferentes tipos de datos
 str1.append("Hola Mundo");      // String
@@ -97,4 +98,29 @@ str1.append(new Object());      // Object (toString())
 ```
 > Puede comprobar como la secuencia de código anterior funciona igual que si escribiese 
 ```str1.append("Hola Mundo").append(123).append(45.67).append('!').append(true).append(new Object());```. 
+
+2. Método ```lentgh()```: devuelve el tamaño de la cadena contenida en el objeto
+StringBuilder. 
+
+```java
+int size = str1.length();
+```
+
+3. Método ```delete(posIni,posFin)```: borra la subcadena que va desde posIni 
+hasta posFin-1. 
+
+```java
+str1.delete(0, str1.length()); // en este caso, borra la cadena entera
+```
+
+4. Método ```insert(iniIndex,str)```: Añade la cadena ```str``` en la posición 
+```iniIndex```, desplazando el contenido de la cadena hacia la derecha tantas 
+posiciones como caracteres tiene ```str```.
+
+```java
+str1.append("Java es genial");
+str1.insert(0, "La ");                  // "La Java es genial"
+str1.insert(2, " programacion en ");    // "La programacion en Java es genial"
+str1.insert(str1.length(), "!");        // "La programacion en Java es genial!"
+```
 
