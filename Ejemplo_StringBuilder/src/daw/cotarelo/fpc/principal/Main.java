@@ -31,6 +31,21 @@ public class Main {
         // Resultado: "Hola Mundo12345.67!truejava.lang.Object@..."
         System.out.println(str1.toString());
         
+        // Método lenght() -> tamaño de la cadena
+        int size = str1.length();
+        
+        // Método delete(posIni,posFin) -> borra la cadena que va desde posIni hasta posFin-1
+        str1.delete(0, str1.length()); // en este caso, borra la cadena entera
+        // str1.delete(0,size); haría lo mismo
+        
+        // Método insert(posIni,cadena) -> inserta cadena en posIni, desplazando lo que hubiera a la derecha
+        str1.append("Java es genial");
+        str1.insert(0, "La ");                  // "La Java es genial"
+        str1.insert(2, " programacion en ");    // "La programacion en Java es genial"
+        str1.insert(str1.length(), "!");        // "La programacion en Java es genial!"
+        
+        System.out.println(str1.toString());
+        
         /**
          * Constructor con capacidad inicial: construye un StringBuilder sin
          * caracteres y con una capacidad inicial especificada en el arguemnto
@@ -45,7 +60,7 @@ public class Main {
 
         int capacidad = 20;
         StringBuilder str3 = new StringBuilder(capacidad);
-
+        
         /**
          * Constructor con String inicial: construye un StringBuilder
          * inicializado con el contenido de la cadena pasada por parámetro. La
