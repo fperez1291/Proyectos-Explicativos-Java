@@ -19,7 +19,11 @@ public class Main {
         /**
          * ====================== ¿Qué es StringBuilder? ======================
          * La clase StringBuilder se corresponde con lo que llamamos
-         * "constructor de Strings".
+         * "constructor de Strings". Se puede usar en lugar de la clase String
+         * en aquellos casos en los que deseamos construir un String para
+         * morstrar por pantalla (en la salida del programa) o bien para cuando
+         * se modificará frecuentemente una cadena de caracteres. 
+         * =====
          */
         /**
          * ================== Constructores de StringBuilder ==================
@@ -27,9 +31,8 @@ public class Main {
          * Construimos un objeto (str) de la clase StringBuilder. Para ello,
          * contamos con 3 constructores:
          *
-         *      1) StringBuilder()
-         *      2) StringBuilder(int capacidad) 
-         *      3) StringBuilder(String str)
+         * 1) StringBuilder() 2) StringBuilder(int capacidad) 3)
+         * StringBuilder(String str)
          *
          * Tenga en cuenta que los constructores numerados no son la forma
          * concreta de usar el constructor, sino su cabecera (en términos más
@@ -37,9 +40,9 @@ public class Main {
          * (separados por comas) con su tipo y un nombre generico para que se
          * entienda exactamente qué espera el constructor en ese parámetro).
          */
-        // 1) StringBuilder sin caracteres almacenados y con capacidad inicial de 16 caracteres
+        // 1) Objeto de la clase StringBuilder vacío con capacidad máxima de 16 caracteres
         StringBuilder str1 = new StringBuilder();
-        // 2) StringBuilder sin caracteres almacenados y con capacidad inicial de 16 caracteres
+        // 2) Objeto de la clase StringBuilder vacío con capacidad máxima de 100 caracteres
         StringBuilder str2 = new StringBuilder(100);
         // 3) StringBuilder sin caracteres almacenados y con capacidad inicial de 16 caracteres
         StringBuilder str3 = new StringBuilder("Hola Mundo");
