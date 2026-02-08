@@ -69,6 +69,8 @@ public class Main {
         
         System.out.println(str3.toString());
         
+        
+        
         /**
          * Constructor con String inicial: construye un StringBuilder
          * inicializado con el contenido de la cadena pasada por parámetro. La
@@ -80,19 +82,27 @@ public class Main {
          * un objeto de la clase String
          */
         StringBuilder str4 = new StringBuilder("Hola Mundo");
-
         char c = str4.charAt(7);     // 'n'
-        
         System.out.println(c);
+        
+        str4.delete(0, str4.length());
         
         String cadena = "Programacion en Java";
         StringBuilder str5 = new StringBuilder(cadena);
 
-        /**
-         * ======================== Métodos a conocer ========================
-         *
-         *
-         */
+        int[] indices = {0,0,0,0};
+        
+        indices[0] = str5.indexOf("r");     // 1
+        indices[1] = str5.indexOf("n");     // 11
+        indices[2] = str5.indexOf(" ");     // 12
+        indices[3] = str5.indexOf("Java");  // 16
+        
+        for (int indice : indices) {
+            str4.append(indice).append(" ");
+        }
+        
+        System.out.println(str4.toString());
+        
     }
 
 }
