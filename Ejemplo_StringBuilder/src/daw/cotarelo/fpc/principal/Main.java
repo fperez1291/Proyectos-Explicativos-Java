@@ -106,6 +106,8 @@ public class Main {
         String cadena = "Programacion en Java";
         StringBuilder str5 = new StringBuilder(cadena);
 
+        System.out.println(str5.toString());    // imprime la cadena "Programacion en Java"
+        
         int[] indices = {0,0,0,0};
         
         indices[0] = str5.indexOf("r");     // 1
