@@ -190,10 +190,15 @@ str2.setCharAt(0, 'Y');     // "Yava"
 str2.setCharAt(2, 'y');     // "Yaya"
 ```
 
-11. **Método ```()```:** 
+11. **Método ```deleteChar(index)```:** borra el caracter en la posición 
+```index```.
 
 ```java
+StringBuilder str2 = new StringBuilder(10);
+str2.append("Java");
 
+str2.deleteCharAt(2);       // "Yaa"
+str2.deleteCharAt(2);       // "Ya"
 ```
 
 12. **Método ```()```:** 
