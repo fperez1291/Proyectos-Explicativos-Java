@@ -201,8 +201,11 @@ str2.deleteCharAt(2);       // "Yaa"
 str2.deleteCharAt(2);       // "Ya"
 ```
 
-12. **Método ```()```:** 
+12. **Método ```toString()```:** convierte el ```StringBuilder``` en un 
+``String``` . 
 
 ```java
-
+String cadena = "Programacion en Java";
+StringBuilder str5 = new StringBuilder(cadena);
+System.out.println(str5.toString());    // imprime la cadena "Programacion en Java"
 ```
