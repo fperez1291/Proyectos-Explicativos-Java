@@ -66,6 +66,11 @@ public class Main {
         
         System.out.println(str2.toString());
 
+        str2.deleteCharAt(2);       // "Yaa"
+        str2.deleteCharAt(2);       // "Ya"
+        
+        System.out.println(str2.toString());
+        
         int capacidad = 20;
         StringBuilder str3 = new StringBuilder(capacidad);
         
