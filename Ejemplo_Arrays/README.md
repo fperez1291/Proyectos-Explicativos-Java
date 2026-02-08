@@ -1,5 +1,5 @@
 # Uso de *arrays*
-Los arrays se utilizan para almacenar múltiples valores en una sola variable, 
+Los _arrays_ se utilizan para almacenar múltiples valores en una sola variable, 
 en lugar de declarar variables separadas para cada valor. Por ejemplo, si 
 quisieramos almacenar las cuotas trimestrales de un club, en lugar de 
 almacenarlas como sigue: 
@@ -22,20 +22,19 @@ lo que facilita enormemente la organización y optimización del código fuente.
 En resumen, se tratan de una colección ordenada de elementos del mismo tipo con 
 un tamaño fijo que no puede modificarse tras su creación. 
 
-## Declaración de arrays
-
-Para declarar arrays en Java, existen dos formas: 
+## Declaración de *arrays*
+Para declarar _arrays_ en Java, existen dos formas: 
 
 - ```tipo[] nombre_vble = new tipo[tamaño];```
 - ```tipo nombre_vble[] = new tipo[tamaño];```
 
-Independientemente de la forma en que declare los arrays, tenemos que: 
+Independientemente de la forma en que declare los _arrays_, tenemos que: 
 - ```tipo``` puede ser un tipo primitivo (```int```, ```boolean```, ```char```, 
-etc.) o el nombre de una clase (p.e., ```String```), en cuyo caso el array 
+etc.) o el nombre de una clase (p.e., ```String```), en cuyo caso el *array* 
 almacenará objetos de la clase especificada. 
-- ```tamaño``` especifica el número de elementos que contendrá el array. 
+- ```tamaño``` especifica el número de elementos que contendrá el *array*. 
 
-También puede realizar la declaración del array por un lado y posteriormente 
+También puede realizar la declaración del *array* por un lado y posteriormente 
 inicializarlo como sigue: 
 
 ```
@@ -45,9 +44,8 @@ nombre_vble = new tipo[tamaño];
 
 **Recomendación:** use los corchetes detrás del tipo, no detrás de la variable. 
 
-## Inicialización de arrays
-
-Hay dos formas de inicializar un array: 
+## Inicialización de _arrays_
+Hay dos formas de inicializar un _array_: 
 
 - Usando la palabra reservada ```new```, siguiendo la sintaxis previamente 
 comentada. 
