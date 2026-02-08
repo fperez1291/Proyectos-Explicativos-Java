@@ -168,10 +168,15 @@ StringBuilder str4 = new StringBuilder("Hola Mundo");
 str4.reverse();             // "odnuM laloH"
 ```
 
-9. **Método ```()```:** 
+9. **Método ```subString(posIni,posFin)```:** devuelve la subcadena que va desde
+```posIni``` hasta ```posFin - 1```. 
 
 ```java
+int capacidad = 20;
+StringBuilder str3 = new StringBuilder(capacidad);
 
+str3.append("Me gusta el cafe");
+String substr = str3.substring(3, 8);   // "gusta"
 ```
 
 10. **Método ```()```:** 
