@@ -69,7 +69,9 @@ public class Main {
         
         System.out.println(str3.toString());
         
+        String substr = str3.substring(3, 8);   // "gusta"
         
+        System.out.println(substr);
         
         /**
          * Constructor con String inicial: construye un StringBuilder
