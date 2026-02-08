@@ -22,6 +22,27 @@ lo que facilita enormemente la organización y optimización del código fuente.
 En resumen, se tratan de una colección ordenada de elementos del mismo tipo con 
 un tamaño fijo que no puede modificarse tras su creación. 
 
+## Declaración de arrays
+
+Para declarar arrays en Java, existen dos formas: 
+
+- ```tipo[] nombre_vble = new tipo[tamaño];```
+- ```tipo nombre_vble[] = new tipo[tamaño];```
+
+Independientemente de la forma en que declare los arrays, tenemos que: 
+- ```tipo``` puede ser un tipo primitivo (```int```, ```boolean```, ```char```, 
+etc.) o el nombre de una clase (p.e., ```String```), en cuyo caso el array 
+almacenará objetos de la clase especificada. 
+- ```tamaño``` especifica el número de elementos que contendrá el array. 
+
+También puede realizar la declaración del array por un lado y posteriormente 
+inicializarlo como sigue: 
+
+```
+tipo[] nombre_vble;
+nombre_vble = new tipo[tamaño];
+```
+
 ## 
 
 Para más información, puede consultar el siguiente [chat de Deepseek](https://chat.deepseek.com/share/atqx1pubc2oq2ptrc4) 
