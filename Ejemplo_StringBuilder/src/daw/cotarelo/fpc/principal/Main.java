@@ -81,6 +81,10 @@ public class Main {
          */
         StringBuilder str4 = new StringBuilder("Hola Mundo");
 
+        char c = str4.charAt(7);     // 'n'
+        
+        System.out.println(c);
+        
         String cadena = "Programacion en Java";
         StringBuilder str5 = new StringBuilder(cadena);
 
