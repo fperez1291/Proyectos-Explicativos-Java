@@ -33,6 +33,8 @@ public class Main {
         
         // Método lenght() -> tamaño de la cadena
         int size = str1.length();
+
+        System.out.printf("Longitud de str1: %s%n", size) ;
         
         // Método delete(posIni,posFin) -> borra la cadena que va desde posIni hasta posFin-1
         str1.delete(0, str1.length()); // en este caso, borra la cadena entera
