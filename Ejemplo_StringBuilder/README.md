@@ -136,10 +136,12 @@ str3.replace(12, 16, "te");     // "Me gusta el te"
 // en este caso, str3.replace(12, str3.length(), "te"); surtiría el mismo efecto
 ```
 
-6. **Método ```()```:** 
+6. **Método ```charAt(indice)```:** devuelve el carácter que se ubicada en la 
+posición ```indice```. 
 
 ```java
-
+StringBuilder str4 = new StringBuilder("Hola Mundo");
+char c = str4.charAt(7);     // 'n'
 ```
 
 7. **Método ```()```:** 
