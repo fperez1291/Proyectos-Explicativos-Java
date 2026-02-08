@@ -63,7 +63,43 @@ cadenas = new String[5];
 boolean[] validez = {true, true, false, true, false};
 ```
 
-## 
+## Acceso a los valores de un *array*
+Para acceder a los valores de un _array_, primero debe tener en cuenta que en 
+Java las posiciones se "numeran" empezando en 0. Por ejemplo, en un _array_ de 
+tamaño 7, las posiciones del mismo irán desde 0 a 6 (tamaño - 1). Sintaxis: 
+
+```
+nombre_array[indice]
+```
+
+donde ```indice``` puede ser un número entero p una expresión que dé como 
+resultado un número entero (incluso si es el valor de retorno de un método). 
+
+Tenga en cuenta que se puede asignar un valor de mismo tipo directamente cuando 
+se accede a una posición de un _array_ (```nombre_array[pos] = valor_mismo_tipo```), 
+así como operar con el valor accedido (recuerde que el valor es del mismo tipo 
+que el tipo especificado en su declaración, y nunca se tratará de otro tipo). 
+
+```java
+int[] numeros = new int[5];
+// asignamos valores al array numeros, del 1 al 5
+for (int i = 0; i < numeros.length; i++) {
+    numeros[i] = i + 1;
+}
+// mostramos los valores almacenados en el array
+System.out.print("Numeros: {");
+for (int i = 0; i < numeros.length; i++) {
+    System.out.printf("%d%s", numeros[i], 
+        i < numeros.length - 1 ? ", " : "}\n");
+}
+```
+
+## Comentarios finales
+Los elementos de un *array* se inicializan automáticamente de la siguiente forma: 
+- Valor por defecto de los tipos numéricos: 0
+- Valor por defecto de los _arrays_ de ```char```: '\u0000' (carácter nulo)
+- Vaor por defecto de los tipos ```boolean```: ```false```
+- Valor por defecto para los *arrays* de objetos (como ```String```): ```null```
 
 Para más información, puede consultar el siguiente [chat de Deepseek](https://chat.deepseek.com/share/atqx1pubc2oq2ptrc4) 
 y el siguiente [enlace](https://www.w3schools.com/java/java_arrays.asp) al sitio
