@@ -59,6 +59,12 @@ public class Main {
          * un int)
          */
         StringBuilder str2 = new StringBuilder(10);
+        
+        str2.append("Java");
+        str2.setCharAt(0, 'Y');     // "Yava"
+        str2.setCharAt(2, 'y');     // "Yaya"
+        
+        System.out.println(str2.toString());
 
         int capacidad = 20;
         StringBuilder str3 = new StringBuilder(capacidad);
