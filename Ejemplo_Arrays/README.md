@@ -43,6 +43,28 @@ tipo[] nombre_vble;
 nombre_vble = new tipo[tamaño];
 ```
 
+**Recomendación:** use los corchetes detrás del tipo, no detrás de la variable. 
+
+## Inicialización de arrays
+
+Hay dos formas de inicializar un array: 
+
+- Usando la palabra reservada ```new```, siguiendo la sintaxis previamente 
+comentada. 
+
+```java
+int[] numeros = new int[5];
+
+String cadenas[];
+cadenas = new String[5];
+```
+
+- Con una lista de valores encerrada entre llaves ```{ }```. 
+
+```java
+boolean[] validez = {true, true, false, true, false};
+```
+
 ## 
 
 Para más información, puede consultar el siguiente [chat de Deepseek](https://chat.deepseek.com/share/atqx1pubc2oq2ptrc4) 
