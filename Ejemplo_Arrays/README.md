@@ -89,10 +89,15 @@ for (int i = 0; i < numeros.length; i++) {
 // mostramos los valores almacenados en el array
 System.out.print("Numeros: {");
 for (int i = 0; i < numeros.length; i++) {
-    System.out.printf("%d%s", numeros[i], 
-        i < numeros.length - 1 ? ", " : "}\n");
+    System.out.printf("%d%s", numeros[i], i < numeros.length - 1 ? ", " : "}\n");
 }
 ```
+
+**Nota:** Para consultar cómo funciona el método ```printf()``` consulte los 
+siguientes enlaces:
+- [Método printf() - W3Schools](https://www.w3schools.com/java/ref_output_printf.asp)
+- [Formato de Salida en Java con printf - Coders Free](https://codersfree.com/posts/formato-de-salida-en-java-con-printf)
+- [Chat de Deepseek](https://chat.deepseek.com/share/hkatqtqzgafoblvkcz)
 
 ## Comentarios finales
 Los elementos de un *array* se inicializan automáticamente de la siguiente forma: 
