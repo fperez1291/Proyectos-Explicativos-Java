@@ -63,6 +63,12 @@ public class Main {
         int capacidad = 20;
         StringBuilder str3 = new StringBuilder(capacidad);
         
+        str3.append("Me gusta el cafe");
+        str3.replace(12, 16, "te");     // "Me gusta el te"
+        // en este caso, str3.replace(12, str3.length(), "te"); surtiría el mismo efecto
+        
+        System.out.println(str3.toString());
+        
         /**
          * Constructor con String inicial: construye un StringBuilder
          * inicializado con el contenido de la cadena pasada por parámetro. La
