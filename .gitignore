@@ -20,3 +20,4 @@ _*
 # Ignorar archivos 'archivo.txt' en cualquier subdirectorio de 'carpeta/'
 carpeta/**/archivo.txt
 /Ejemplo_StringBuilder/build/
+/Ejemplo_Arrays/build/
