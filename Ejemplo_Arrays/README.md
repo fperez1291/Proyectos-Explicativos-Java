@@ -22,3 +22,8 @@ lo que facilita enormemente la organización y optimización del código fuente.
 En resumen, se tratan de una colección ordenada de elementos del mismo tipo con 
 un tamaño fijo que no puede modificarse tras su creación. 
 
+## 
+
+Para más información, puede consultar el siguiente [chat de Deepseek](https://chat.deepseek.com/share/atqx1pubc2oq2ptrc4) 
+y el siguiente [enlace](https://www.w3schools.com/java/java_arrays.asp) al sitio
+web de [W3Schools](https://www.w3schools.com/). 
