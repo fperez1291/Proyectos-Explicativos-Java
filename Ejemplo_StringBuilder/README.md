@@ -179,10 +179,15 @@ str3.append("Me gusta el cafe");
 String substr = str3.substring(3, 8);   // "gusta"
 ```
 
-10. **Método ```()```:** 
+10. **Método ```setCharAt(index,caracter)```:** sustituye el carácter en la 
+posición ```index``` por el carácter ```caracter```. 
 
 ```java
+StringBuilder str2 = new StringBuilder(10);
 
+str2.append("Java");
+str2.setCharAt(0, 'Y');     // "Yava"
+str2.setCharAt(2, 'y');     // "Yaya"
 ```
 
 11. **Método ```()```:** 
