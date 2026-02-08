@@ -144,10 +144,19 @@ StringBuilder str4 = new StringBuilder("Hola Mundo");
 char c = str4.charAt(7);     // 'n'
 ```
 
-7. **Método ```()```:** 
+7. **Método ```indexOf(cadena)```:** analiza los caracteres de la cadena y 
+encuentra el primer índice que coincide con el valor deseado (```cadena```).
 
 ```java
+String cadena = "Programacion en Java";
+StringBuilder str5 = new StringBuilder(cadena);
 
+int[] indices = {0,0,0,0};
+
+indices[0] = str5.indexOf("r");     // 1
+indices[1] = str5.indexOf("n");     // 11
+indices[2] = str5.indexOf(" ");     // 12
+indices[3] = str5.indexOf("Java");  // 16
 ```
 
 8. **Método ```()```:** 
