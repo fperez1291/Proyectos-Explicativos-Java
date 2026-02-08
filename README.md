@@ -1,4 +1,4 @@
-# Proyectos-Explicativos-Java
+# Proyectos Explicativos - Java
 
 Se adjuntan varios proyectos en los que se tratará de explicar diferentes 
 conceptos de la ***Programación Orienta a Objetos*** y de la programación en Java. 
