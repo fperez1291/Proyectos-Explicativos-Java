@@ -79,7 +79,7 @@ Algunas recomendaciones de uso:
 
 ## Métodos que debe conocer
 
-1. Método ```append()```: agrega la información que recibe por parámetro al 
+1. **Método ```append()```:** agrega la información que recibe por parámetro al 
 final de la cadena. Para saber tanto el n.º como el tipo de los argumentos que 
 puede recibir el método, consulte la página dedicada a la clase StringBuilder 
 en la API de Java, puesto que el método está sobrecargado (es decir, existen 
@@ -99,21 +99,21 @@ str1.append(new Object());      // Object (toString())
 > Puede comprobar como la secuencia de código anterior funciona igual que si escribiese 
 ```str1.append("Hola Mundo").append(123).append(45.67).append('!').append(true).append(new Object());```. 
 
-2. Método ```lentgh()```: devuelve el tamaño de la cadena contenida en el objeto
+2. **Método ```lentgh()```:** devuelve el tamaño de la cadena contenida en el objeto
 StringBuilder. 
 
 ```java
 int size = str1.length();
 ```
 
-3. Método ```delete(posIni,posFin)```: borra la subcadena que va desde posIni 
-hasta posFin-1. 
+3. **Método ```delete(posIni,posFin)```:** borra la subcadena que va desde 
+```posIni``` hasta ```posFin - 1```. 
 
 ```java
 str1.delete(0, str1.length()); // en este caso, borra la cadena entera
 ```
 
-4. Método ```insert(iniIndex,str)```: Añade la cadena ```str``` en la posición 
+4. **Método ```insert(iniIndex,str)```:** Añade la cadena ```str``` en la posición 
 ```iniIndex```, desplazando el contenido de la cadena hacia la derecha tantas 
 posiciones como caracteres tiene ```str```.
 
@@ -124,3 +124,56 @@ str1.insert(2, " programacion en ");    // "La programacion en Java es genial"
 str1.insert(str1.length(), "!");        // "La programacion en Java es genial!"
 ```
 
+5. **Método ```replace(posIni,posFin,cadena)```:** sustituye la subcadena que va 
+de ```posIni``` a ```posFin - 1``` por la secuencia de caracteres ```cadena```. 
+
+```java
+int capacidad = 20;
+StringBuilder str3 = new StringBuilder(capacidad);
+
+str3.append("Me gusta el cafe");
+str3.replace(12, 16, "te");     // "Me gusta el te"
+// en este caso, str3.replace(12, str3.length(), "te"); surtiría el mismo efecto
+```
+
+6. **Método ```()```:** 
+
+```java
+
+```
+
+7. **Método ```()```:** 
+
+```java
+
+```
+
+8. **Método ```()```:** 
+
+```java
+
+```
+
+9. **Método ```()```:** 
+
+```java
+
+```
+
+10. **Método ```()```:** 
+
+```java
+
+```
+
+11. **Método ```()```:** 
+
+```java
+
+```
+
+12. **Método ```()```:** 
+
+```java
+
+```
