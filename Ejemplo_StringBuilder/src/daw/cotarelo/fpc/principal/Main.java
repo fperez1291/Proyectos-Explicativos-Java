@@ -85,6 +85,9 @@ public class Main {
         char c = str4.charAt(7);     // 'n'
         System.out.println(c);
         
+        str4.reverse();             // "odnuM laloH"
+        System.out.println(str4.toString());
+        
         str4.delete(0, str4.length());
         
         String cadena = "Programacion en Java";
