@@ -25,10 +25,11 @@ public class Main {
         String cadenas[];
         cadenas = new String[5];
         
+        // se le invita a practicar con el array cadenas
         
         boolean[] validez = {true, true, false, true, false};
         
-        
+        // se le invita a practicar con el array validez
     }
     
 }
