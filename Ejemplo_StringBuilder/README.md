@@ -159,10 +159,13 @@ indices[2] = str5.indexOf(" ");     // 12
 indices[3] = str5.indexOf("Java");  // 16
 ```
 
-8. **Método ```()```:** 
+8. **Método ```reverse()```:** le da la vuelta a la cadena, es decir, si la 
+cadena es ```StringBuilder str = new StringBuilder("Hola");```, al llamar a este
+método (```str5.reverse()```), ```str5``` contendrá la cadena ```"aloH"```. 
 
 ```java
-
+StringBuilder str4 = new StringBuilder("Hola Mundo");
+str4.reverse();             // "odnuM laloH"
 ```
 
 9. **Método ```()```:** 
