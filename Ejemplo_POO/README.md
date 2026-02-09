@@ -27,19 +27,77 @@ pensamos en un vehículo de 4 ruedas similar a la siguiente imagen:
     <img src="./img/coche.jpg" align="center" style="width:50%">
 </div>
 
+Sin embargo, los coches pueden ser de distinta marca, de distinto modleo, tener
+colores distintos, etc. Si tratamos de modelar todos los coches del mundo, 
+podemos llegar a diferentes conclusiones sobre las características de un coche. 
+En este ejemplo nos centraremos en el ejemplo generado por Deepseek en el 
+siguiente [chat](https://chat.deepseek.com/share/3or81u783zrml45w3n). 
 
-. Sin embargo, las mesas pueden ser altas, bajas, redondas, cuadradas, tener
-una o varias patas o ser de plástico, madera o incluso metálicas. Por tanto, si 
-tratamos de modelar todas las mesas del mundo, tenemos que la abstracción de mesa
-cuenta con las siguientes características: 
+Seguiremos hablando de este ejemplo relacionandolo con diferentes contextos a lo
+largo de este documento, pero por ahora quisiera mostrar cómo se especifican las
+clases en Java y cómo se crean los objetos. 
 
-- Material de la que está hecha
-- N.º de patas
-- Dimensiones
+Por un lado, la sintaxis que deben seguir nuestras clases es la siguiente: 
 
-Estas características serán los atributos de nuestra clase ```Mesa```. Este 
-concepto se explica un poco más adelante. 
+```java
+public class NombreClase {
+    // contenido de la clase NombreClase
+}
+```
 
+Cabe destacar que: 
+- ```public``` es uana palabra reservada. Es uno de los modificadores de 
+visibilidad existentes en Java e indica que la clase es pública, es decir, es
+visible por todas las clases del proyecto. 
+- ```class``` es una palabra reservada que inidica que se está especificando / 
+creando una clase. 
+- ```NombreClase``` es el nombre que el programador especifica para la clase. 
+Esta debe empezar siempre por mayúscula. 
+
+Un ejemplo más claro sería el de la clase Coche, la cuál especificaríamos de la 
+siguiente forma al crearla: 
+
+```java
+public class Coche {
+    // contenido de la clase
+}
+```
+
+***¿Cómo instanciamos un objeto?*** Fácil. Simplemente debemos usar el operador
+```new``` seguido de un constructor de la clase: 
+
+```java 
+// Sintaxis
+NombreClase nombreObjeto = new NombreClase(lista_argumentos);
+```
+
+Si lo trasladamos al caso de la clase ```Coche```, en caso de que no existiera 
+un constructor, crear un objeto ```coche``` de la clase ```Coche``` se haría como
+sigue: 
+
+```java 
+Coche coche = new Coche();
+```
+
+Sin embargo, la clase ```Coche``` cuenta con un constructor que recibe una lista
+de parámetros, por lo que al sobreescribir el constructor por defecto, solo 
+podemos usar el constructor especificado, lo que nos obliga a instanciar un 
+objeto con dicho constructor. 
+
+```
+Constructor de Coche: Coche(marca, modelo, color, capacidadTanque)
+- marca, modelo y color: cadenas de texto (String)
+- capacidadTanque: n.º en coma flotante de doble precisión (double)
+```
+
+```java
+// Se instancian 2 objetos de la clase Coche: coche1 y coche2
+Coche coche1 = new Coche("Toyota", "Corolla", "Rojo", 50.0);
+Coche coche2 = new Coche("Ford", "Focus", "Azul", 45.0);
+// Resumen -> Coche es la clase, coche1 y coche2 son los objetos
+```
+
+## 
 
 Para más información, consulte los siguientes enlaces: 
 - [Qué es la Programación Orientada a Objetos - GenBeta](https://www.genbeta.com/a-fondo/que-programacion-orientada-a-objetos-principales-conceptos-explicados-para-todos-publicos)
