@@ -75,6 +75,18 @@ nombre_array[indice]
 donde ```indice``` puede ser un número entero p una expresión que dé como 
 resultado un número entero (incluso si es el valor de retorno de un método). 
 
+```java
+String cadenas[];
+cadenas = new String[5];
+        
+cadenas[0] = "Hola,";
+cadenas[1] = "estoy";
+cadenas[2] = "programando";
+cadenas[3] = "en";
+cadenas[4] = "Java";
+// cadenas[5] = "."; // lanzaría una excepción IndexOutOfBounds (fuera de rango)
+```
+
 Tenga en cuenta que se puede asignar un valor de mismo tipo directamente cuando 
 se accede a una posición de un _array_ (```nombre_array[pos] = valor_mismo_tipo```), 
 así como operar con el valor accedido (recuerde que el valor es del mismo tipo 
