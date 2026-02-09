@@ -23,8 +23,8 @@ representa un caso individual de la clase.
 Para ejemplificar esto mejor, pensemos en un coche. Cuando pensamos en un coche, 
 pensamos en un vehículo de 4 ruedas similar a la siguiente imagen: 
 
-<div align="center" style="margin: 5px">
-    <img src="./img/coche.jpg" align="center" style="width:50%">
+<div align="center">
+    <img src="./img/coche.jpg" align="center" style="width:50%;margin:5px">
 </div>
 
 Sin embargo, los coches pueden ser de distinta marca, de distinto modleo, tener
