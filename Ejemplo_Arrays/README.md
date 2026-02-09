@@ -111,6 +111,31 @@ siguientes enlaces:
 - [Formato de Salida en Java con printf - Coders Free](https://codersfree.com/posts/formato-de-salida-en-java-con-printf)
 - [Chat de Deepseek](https://chat.deepseek.com/share/hkatqtqzgafoblvkcz)
 
+**Extra:** se puede utilizar una versión _"especial"_ del bucle ```for``` que 
+recibe el nombre de _for-each_. Esta versión cuenta con la siguiente sintaxis:
+
+```
+for (tipo elemento : coleccion) {
+    // cuerpo del for-each
+}
+```
+
+donde ```tipo``` es el tipo del elemento (debe ser igual que el ```tipo``` de la
+colección) y ```coleccion``` es el nombre de la colección que se quiere recorrer
+(p.e. un *array* o una lista). ```elemento``` sería el nombre que se le da al 
+elemento al que se está accediendo en cada paso del bucle. A continuación, tiene
+un ejemplo dee uso con un _array_:
+
+```java
+// for-each: forma especial del bucle for para recorrer colecciones
+// no se pueden realizar modificaciones en su interior
+for (String cadena : cadenas) {
+    System.out.printf("%s ", cadena);
+}
+```
+
+Para más información, consulte el siguiente [enlace](https://oregoom.com/java/for-each/).
+
 ## Comentarios finales
 Los elementos de un *array* se inicializan automáticamente de la siguiente forma: 
 - Valor por defecto de los tipos numéricos: 0
