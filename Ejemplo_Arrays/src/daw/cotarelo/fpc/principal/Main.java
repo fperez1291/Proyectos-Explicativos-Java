@@ -32,6 +32,12 @@ public class Main {
         cadenas[4] = "Java";
         // cadenas[5] = "."; // lanzaría una excepción IndexOutOfBounds (fuera de rango)
         
+        // for-each: forma especial del bucle for para recorrer colecciones
+        // no se pueden realizar modificaciones en su interior
+        for (String cadena : cadenas) {
+            System.out.printf("%s ", cadena);
+        }
+        
         // se le invita a practicar con el array cadenas
         
         boolean[] validez = {true, true, false, true, false};
