@@ -50,8 +50,8 @@ Cabe destacar que:
 - ```public``` es uana palabra reservada. Es uno de los modificadores de 
 visibilidad existentes en Java e indica que la clase es pública, es decir, es
 visible por todas las clases del proyecto. 
-- ```class``` es una palabra reservada que inidica que se está especificando / 
-creando una clase. 
+- ```class``` es una palabra reservada que inidica que se está creando una
+- clase. 
 - ```NombreClase``` es el nombre que el programador especifica para la clase. 
 Esta debe empezar siempre por mayúscula. 
 
