@@ -21,3 +21,8 @@ _*
 carpeta/**/archivo.txt
 /Ejemplo_StringBuilder/build/
 /Ejemplo_Arrays/build/
+/Ejemplo_Arrays/nbproject/private/
+/Ejemplo_MVC/nbproject/private/
+/Ejemplo_POO/nbproject/private/
+/Ejemplo_StringBuilder/nbproject/private/
+/Ejemplo_ArrayList/nbproject/private/
