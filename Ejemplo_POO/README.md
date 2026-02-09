@@ -55,8 +55,8 @@ creando una clase.
 - ```NombreClase``` es el nombre que el programador especifica para la clase. 
 Esta debe empezar siempre por mayúscula. 
 
-Un ejemplo más claro sería el de la clase Coche, la cuál especificaríamos de la 
-siguiente forma al crearla: 
+Un ejemplo más claro sería el de la clase ```Coche```, la cuál especificaríamos
+de la siguiente forma al crearla: 
 
 ```java
 public class Coche {
