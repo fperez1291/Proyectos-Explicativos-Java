@@ -23,7 +23,10 @@ representa un caso individual de la clase.
 Para ejemplificar esto mejor, pensemos en un coche. Cuando pensamos en un coche, 
 pensamos en un vehículo de 4 ruedas similar a la siguiente imagen: 
 
-<img src="./img/coche.jpg" align="center" style="width:50%">
+<div align="center">
+    <img src="./img/coche.jpg" align="center" style="width:50%">
+</div>
+
 
 . Sin embargo, las mesas pueden ser altas, bajas, redondas, cuadradas, tener
 una o varias patas o ser de plástico, madera o incluso metálicas. Por tanto, si 
