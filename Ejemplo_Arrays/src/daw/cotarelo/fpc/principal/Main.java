@@ -25,6 +25,13 @@ public class Main {
         String cadenas[];
         cadenas = new String[5];
         
+        cadenas[0] = "Hola,";
+        cadenas[1] = "estoy";
+        cadenas[2] = "programando";
+        cadenas[3] = "en";
+        cadenas[4] = "Java";
+        // cadenas[5] = "."; // lanzaría una excepción IndexOutOfBounds (fuera de rango)
+        
         // se le invita a practicar con el array cadenas
         
         boolean[] validez = {true, true, false, true, false};
