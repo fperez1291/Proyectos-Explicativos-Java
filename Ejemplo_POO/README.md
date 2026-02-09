@@ -24,7 +24,7 @@ Para ejemplificar esto mejor, pensemos en un coche. Cuando pensamos en un coche,
 pensamos en un vehículo de 4 ruedas similar a la siguiente imagen: 
 
 <div align="center">
-    <img src="./img/coche.jpg" align="center" style="width:50%">
+    <img src="./img/coche.jpg" align="center" style="width:50%"><br>
 </div>
 
 Sin embargo, los coches pueden ser de distinta marca, de distinto modleo, tener
