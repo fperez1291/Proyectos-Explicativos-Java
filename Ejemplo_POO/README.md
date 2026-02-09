@@ -36,3 +36,8 @@ cuenta con las siguientes características:
 
 Estas características serán los atributos de nuestra clase ```Mesa```. Este 
 concepto se explica un poco más adelante. 
+
+
+Para más información, consulte los siguientes enlaces: 
+- [Qué es la Programación Orientada a Objetos - GenBeta](https://www.genbeta.com/a-fondo/que-programacion-orientada-a-objetos-principales-conceptos-explicados-para-todos-publicos)
+- [Introducción a POO en Java - OpenWebinars](https://openwebinars.net/blog/introduccion-a-poo-en-java-objetos-y-clases/)
