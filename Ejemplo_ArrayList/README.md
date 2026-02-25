@@ -35,9 +35,9 @@ con arrays.
 - Acceder a un elemento
 - Recorrer una lista
 
-| **Ventajas**                        | **Desventajas**                                                     | **** | **** | **** | **** | **** | **** | **** | **** |
-|-------------------------------------|---------------------------------------------------------------------|------|------|------|------|------|------|------|------|
-| Inserción y eliminación eficientes  | Acceso aleatorio lento                                              |      |      |      |      |      |      |      |      |
-| Uso dinámico de memoria             | Mala localidad espacial (los nodos no están contiguos en memoria).  |      |      |      |      |      |      |      |      |
-| Base para estructuras más complejas | Uso adicional de memoria                                            |      |      |      |      |      |      |      |      |
+| **Ventajas**                        | **Desventajas**                                                     |
+|-------------------------------------|---------------------------------------------------------------------|
+| Inserción y eliminación eficientes  | Acceso aleatorio lento                                              |
+| Uso dinámico de memoria             | Mala localidad espacial (los nodos no están contiguos en memoria).  |
+| Base para estructuras más complejas | Uso adicional de memoria                                            |
 
