@@ -195,7 +195,7 @@ str2.setCharAt(2, 'y');     // "Yaya"
 
 ```java
 StringBuilder str2 = new StringBuilder(10);
-str2.append("Java");
+str2.append("Yaya");
 
 str2.deleteCharAt(2);       // "Yaa"
 str2.deleteCharAt(2);       // "Ya"
